@@ -4,7 +4,7 @@
 
 :root {
     --light-blue: rgb(51, 139, 253);
-    --gray: rgb(197, 197, 197);
+    --gray: rgba(223, 223, 223, 0.856);
 }
 
 body {
@@ -86,6 +86,10 @@ li {
     font-size: 1.25vw;
 }
 
+.icons {
+    padding-top: 0.4vh;
+}
+
 #header {
     background-color: white;
     grid-column: 2 / 3;
@@ -107,6 +111,23 @@ li {
     width: 30vw;
     height: 3vh;
     border-radius: 15px;
+}
+
+#header-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+
+#profile-pic {
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+}
+
+h3 {
+    font-size: 1vw;
 }
 
 #main-content {
