@@ -57,6 +57,7 @@ body {
     color: white;
     grid-column: 2;
     align-self: center;
+    justify-self: start;
 }
 
 .nav {
@@ -88,6 +89,24 @@ li {
 #header {
     background-color: white;
     grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#search {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 3vw;
+    gap: 1vw;
+}
+
+#search-box {
+    background-color: var(--gray);
+    width: 30vw;
+    height: 3vh;
+    border-radius: 15px;
 }
 
 #main-content {
