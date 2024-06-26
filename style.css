@@ -96,7 +96,7 @@ li {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
-    height: 20vh;
+    height: 15vh;
 }
 
 #search {
@@ -121,7 +121,8 @@ li {
     gap: 3vw;
 }
 
-#profile-pic-small {
+#profile-pic-small,
+#trending-card img {
     height: 2.5vw;
     width: 2.5vw;
     border-radius: 50%;
@@ -198,7 +199,7 @@ button {
 
 #projects h2 {
     margin-left: 1vw;
-    margin-top: 4vh;
+    margin-top: 3vh;
     margin-bottom: -.3vh;
     font-size: 1vw;
 }
@@ -241,8 +242,19 @@ button {
     grid-row: 1;
 }
 
+#announcements-card {
+    background-color: white;
+    border-radius: 15px;
+    margin-right: 2vw;
+    padding: 1.5vh 1.5vw 1.5vh 1.5vw;
+}
+
 #trending {
     grid-column: 2;
     grid-row: 2;
+}
+
+#trending-card {
+    background-color: white;
 }
 
