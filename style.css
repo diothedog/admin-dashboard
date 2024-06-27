@@ -108,11 +108,14 @@ li {
     margin-top: -1vh;
 }
 
-#search-box {
+#search-box input {
     background-color: var(--gray);
     width: 30vw;
     height: 3vh;
     border-radius: 15px;
+    border: none;
+    font-size: 2vh;
+    padding-left: 1vw;
 }
 
 #header-icons {
